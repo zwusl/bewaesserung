@@ -25,7 +25,7 @@ HAMqtt mqtt(client, device);
 Adafruit_AM2320 am2320 = Adafruit_AM2320();
 
 unsigned long lastUpdateAt;
-unsigned long waitmillis = 10001; // 10 Minuten Intervall
+unsigned long waitmillis = 10002; // 10 Minuten Intervall
 
 // --- VARIABLEN FÜR DIE PRÄZISIONSMESSUNG ---
 volatile unsigned long impulsZaehler = 0;
