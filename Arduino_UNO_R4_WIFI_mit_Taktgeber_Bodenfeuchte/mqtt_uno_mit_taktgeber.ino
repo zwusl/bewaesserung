@@ -286,7 +286,7 @@ void loop() {
 
             pins_powered = false;
             lastUpdateAt = millis();
-            Serial.println("Messsequenz erfolgreich beendet. Gehe jetzt 10 sec in den Wartezustand.");
+            Serial.println("Messsequenz erfolgreich beendet. Gehe jetzt 10 min in den Wartezustand.");
         }
     }
 }
